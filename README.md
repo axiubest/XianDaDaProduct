@@ -2,7 +2,7 @@
 鲜搭搭净菜公社WebAPP改
 
  
- ### web userPassword and userName save In NSUserDefaut
+### web userPassword and userName save In NSUserDefaut
  
 
 #### This method can write in AppDelegate or Notification when product will be in background
