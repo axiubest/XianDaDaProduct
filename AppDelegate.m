@@ -35,7 +35,7 @@
 - (void)applicationDidEnterBackground:(UIApplication *)application {
     NSHTTPCookie *cookie;
     NSHTTPCookieStorage *nCookies = [NSHTTPCookieStorage sharedHTTPCookieStorage];
-    NSArray *cookiesURL = [nCookies cookiesForURL:[NSURL URLWithString:@"http://wx.hzjuym.com/xdd/mobile/index.php"]];  //这个是主页的url，不是登录页的url
+    NSArray *cookiesURL = [nCookies cookiesForURL:[NSURL URLWithString:@"http://www.xddjingcai.com/"]];  //这个是主页的url，不是登录页的url
     
     for (id c in cookiesURL)
     {
